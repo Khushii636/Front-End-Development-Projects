@@ -89,7 +89,7 @@ button{
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background-image: url("/images/2.jpg");
+    background-image: url("./images/2.jpg");
     background-size: cover;
     background-position: center;
     filter:opacity(10%); /* adjust blur and transparency */
@@ -113,7 +113,7 @@ button{
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background-image: url("/images/4.jpg");
+    background-image: url("./images/4.jpg");
     background-size: cover;
     background-position: center;
     filter:opacity(10%); /* adjust blur and transparency */
@@ -137,7 +137,7 @@ button{
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background-image: url("/images/6.jpg");
+    background-image: url("./images/6.jpg");
     background-size: cover;
     background-position: center;
     filter:opacity(10%); /* adjust blur and transparency */
@@ -161,7 +161,7 @@ button{
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background-image: url("/images/8.jpg");
+    background-image: url("./images/8.jpg");
     background-size: cover;
     background-position: center;
     filter:opacity(10%); /* adjust blur and transparency */
