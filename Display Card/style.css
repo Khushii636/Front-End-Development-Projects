@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #F9F4EC 0%, #F9F5E3 50%, #F9F5E3 100%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px;
+    min-height: 100vh;
+}
+
+div{
+    height: 407.27px;
+    width: 300.17px;
+    border-radius: 40px;
+    display:flex;
+    flex-direction:column ;
+    justify-content:space-around;
+    padding: 20px;
+    opacity: 0;
+  transform: translateY(-100px) rotate(0deg);
+  animation: fallTilt 0.8s ease-out forwards;
+}
+
+#card2 { animation-delay: 0.2s; }
+#card3 { animation-delay: 0.4s; }
+#card4 { animation-delay: 0.6s; }
+
+@keyframes fallTilt {
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(-10deg);
+  }
+}
+
+#card1 {
+  margin-top: 70px;
+}
+#card2 {
+  margin-top: 140px;
+}
+#card3 {
+  margin-top: 210px;
+}
+#card4 {
+  margin-top: 280px;
+}
+
+h1{
+    color: #4e3e3e;
+    font-family: 'Playfair Display';
+    align-self: center;
+    font-size: 26px;
+}
+
+p{
+    font-size:16px ;
+    font-weight: lighter;
+    font-family: 'Poppins';
+    align-self: center;
+    color: #4e3e3e;
+}
+
+button{
+    height: 40px;
+    width:120px;
+    background-color: #F9F5E3;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: lighter;
+    align-self: flex-end;
+}
+
+
+#card1 {
+    position: relative;
+    overflow: hidden;
+    background-color: #EAC7C7; /* fallback */
+}
+
+#card1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background-image: url("/images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    filter:opacity(10%); /* adjust blur and transparency */
+    z-index: 0;
+}
+
+/* Make sure actual content stays above the blurred background */
+#card1 > * {
+    position: relative;
+    z-index: 1;
+}
+
+#card2 {
+    position: relative;
+    overflow: hidden;
+    background-color: #F9F5E3; /* fallback */
+}
+
+#card2::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background-image: url("/images/4.jpg");
+    background-size: cover;
+    background-position: center;
+    filter:opacity(10%); /* adjust blur and transparency */
+    z-index: 0;
+}
+
+/* Make sure actual content stays above the blurred background */
+#card2 > * {
+    position: relative;
+    z-index: 1;
+}
+
+#card3 {
+    position: relative;
+    overflow: hidden;
+    background-color: #CBDCCB; /* fallback */
+}
+
+#card3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background-image: url("/images/6.jpg");
+    background-size: cover;
+    background-position: center;
+    filter:opacity(10%); /* adjust blur and transparency */
+    z-index: 0;
+}
+
+/* Make sure actual content stays above the blurred background */
+#card3 > * {
+    position: relative;
+    z-index: 1;
+}
+
+#card4 {
+    position: relative;
+    overflow: hidden;
+    background-color: #D6CCF1; /* fallback */
+}
+
+#card4::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    background-image: url("/images/8.jpg");
+    background-size: cover;
+    background-position: center;
+    filter:opacity(10%); /* adjust blur and transparency */
+    z-index: 0;
+}
+
+/* Make sure actual content stays above the blurred background */
+#card4 > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.avatar{
+    height: 132.36px;
+    width:130.07px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
