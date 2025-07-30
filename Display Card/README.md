@@ -42,7 +42,7 @@ card-display/
 Open index.html in your browser.
 
 🌍 View Online
-Visit: https://Khushii636.github.io/card-display
+Visit: https://Khushii636.github.io/card%20display
 
 🗂️ Project Goal
 This project is part of my "20 Mini Projects" challenge to:
