@@ -38,7 +38,7 @@ card-display/
 
 ### ✅ Run Locally
 1. Clone or download the repository:
-   git clone https://github.com/yourusername/card-display.git
+   git clone https://github.com/Khushii636/card-display.git
 Open index.html in your browser.
 
 🌍 View Online
