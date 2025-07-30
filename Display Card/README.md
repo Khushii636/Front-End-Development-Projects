@@ -38,11 +38,11 @@ card-display/
 
 ### ✅ Run Locally
 1. Clone or download the repository:
-   git clone https://github.com/Khushii636/card-display.git
+   git clone https://github.com/Khushii636/Display%20Card.git
 Open index.html in your browser.
 
 🌍 View Online
-Visit: https://Khushii636.github.io/card%20display
+Visit: https://Khushii636.github.io/Display%20Card
 
 🗂️ Project Goal
 This project is part of my "20 Mini Projects" challenge to:
