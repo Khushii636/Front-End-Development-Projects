@@ -1,0 +1,30 @@
+body {
+  transition: background 0.5s ease;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-container {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  padding: 30px 60px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.light-theme {
+  background: linear-gradient(to right, #FFEFBA, #FFFFFF); /* soft sunrise */
+  color: #222;
+}
+
+.dark-theme {
+ background: linear-gradient(to right, #141E30, #243B55); /* deep night blues */
+  color: #f5f5f5;
+}
