@@ -31,6 +31,8 @@ background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255,255,255,0.18);
 border-radius: 16px;
+```
+
 🧠 How It Works
 JavaScript gets the current time using new Date().
 
