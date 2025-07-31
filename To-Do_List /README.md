@@ -7,7 +7,7 @@ This app helps users manage daily tasks — add, complete, delete — and it rem
 
 ## 🔗 Live Preview
 
-🌐 [View Live Project](https://khushii636.github.io/Front-End-Development-Projects/To-Do_List/)  
+🌐 [View Live Project](https://khushii636.github.io/Front-End-Development-Projects/To-Do_List%20/)  
 
 ---
 
