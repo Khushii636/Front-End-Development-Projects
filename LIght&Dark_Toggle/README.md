@@ -6,7 +6,7 @@ This is a simple and beginner-friendly web project that lets users toggle betwee
 
 ## 🔗 Live Demo
 
-👉 [Click to View Live](https://khushii636.github.io/Front-End-Development-Projects/Light&Dark_Toggle/)  
+👉 [Click to View Live](https://khushii636.github.io/Front-End-Development-Projects/LIght&Dark_Toggle/)  
 
 ---
 
